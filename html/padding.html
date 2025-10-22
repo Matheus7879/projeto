@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Visual: Margin vs Padding</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #f0f0f0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .example {
+      background: #ffcccc; /* vermelho claro = margem (fora da caixa) */
+      margin-bottom: 40px;
+      padding: 10px;
+    }
+
+    .box {
+      border: 4px solid #0077ff; /* azul = borda */
+      background: #fff; /* branco = conteúdo */
+      padding: 30px;
+    }
+
+    .padding-illustration {
+      background: #fffbe6; /* amarelo claro = padding */
+    }
+
+    .label {
+      margin-bottom: 8px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Visual: Margin vs Padding</h1>
+
+  <!-- Caixa com PADDING ilustrado -->
+  <div class="example">
+    <p class="label">🟨 Exemplo com <strong>Padding</strong> (espaço interno em amarelo):</p>
+    <div class="box padding-illustration">
+      Esta caixa tem <strong>padding de 30px</strong>.
+    </div>
+  </div>
+
+  <!-- Caixa com MARGIN ilustrado -->
+  <div class="label">🟥 Exemplo com <strong>Margin</strong> (espaço externo em vermelho claro):</div>
+  <div class="box">
+    Esta caixa está <strong>envolta por margin</strong>.
+  </div>
+
+</body>
+</html>
