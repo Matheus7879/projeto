@@ -30,6 +30,7 @@ body {
     background: var(--bg-url);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 body {
     font-family: sans-serif;
@@ -142,3 +143,10 @@ footer {
 footer a{
     color: var(--text-color);
 }
+@media (min-width=600px) {
+    :root {
+        --bg-url: url(bg-desktop.jpg);
+    .light{
+   --bg-url: url(bg-desktop.loght.jpg);
+}
+}}
