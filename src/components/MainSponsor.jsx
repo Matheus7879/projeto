@@ -12,7 +12,7 @@ export function MainSponsor() {
                     <div className="pl-4">
                         <span className="text-[19px] text-gray-800">Help keep Tailwind CSS sustainable long term by supporting the<br></br>
                             project individually or as a company.</span>
-                         <div class="flex pt-18">
+                        <div class="flex pt-18">
                             <button class="border bg-black text-white rounded-l-full border-r-0 p-2 cursor-pointer">Support as an individual</button>
                             <span
                                 class="cursor-pointer ri-arrow-right-line border-l-0 text-white border rounded-r-full bg-black pt-2 text-[18px] pr-2"></span>
@@ -24,6 +24,7 @@ export function MainSponsor() {
                 </div>
             </div>
 
+            <div>
             <div className="pt-18 pl-10">
                 <span className="text-sky-400 text-sm tracking-wider">INSIDERS</span>
             </div>
@@ -31,10 +32,10 @@ export function MainSponsor() {
                 <span className="text-[40px] font-medium tracking-tighter">Support as an individual</span>
             </div>
             <div className="pl-10 pt-4 border-b border-gray-200">
-                <span className="text-gray-600">Join a community of amazing developers who get eaely acess to new features,internal tooling<br></br>
+                <span className="text-gray-600">Join a community of amazing developers who get early acess to new features, internal tooling<br></br>
                     we've built for Tailwind, and direct connection with the team — all while supporting the <br></br>
                     project you love.</span>
-            </div>
+            </div></div>
             <div className="pl-10 pt-12">
                 <span className="text-2xl font-medium">Insider Perks</span>
             </div>
@@ -51,13 +52,13 @@ export function MainSponsor() {
                     <span className="font-medium">Cursor/Claude/Agents.md rules</span>
                     <span className="text-gray-600"> — Adam's personal ruleset for<br></br>
                         working with AI coding assitants, straight from the Tailwind<br></br>
-                        founder's own development setup</span>
+                        founder's own development setup.</span>
                 </div>
                 <div className=" pl-16">
                     <span className="font-medium">Early documentation for pre-release builds</span>
                     <span className="text-gray-600"> — preview<br></br>
                         documentation for unreleased Tailwind features and start<br></br>
-                        experimenting with tomorrow's CSS utilities today</span>
+                        experimenting with tomorrow's CSS utilities today.</span>
                 </div>
             </div>
             <div className="flex pt-10">
@@ -66,18 +67,18 @@ export function MainSponsor() {
                     <span className="font-medium">VS Code themes </span>
                     <span className="text-gray-600">— get the VS Code themes built and battle-<br></br>
                         tested by the Tailwind team, crafted with the same attention to<br></br>
-                        detail we put into Tailwind CSS itself</span>
+                        detail we put into Tailwind CSS itself.</span>
                 </div>
                 <div className="pl-18">
                     <span className="font-medium">Raycast extension </span>
                     <span className="text-gray-600"> — instantly find the nearest Tailwind theme<br></br>
                         value for any color or size, or see the generated CSS output of <br></br>
-                        any class</span>
+                        any class.</span>
                 </div>
                 <div className="pl-18">
                     <span className="font-medium">Source code + Figma files</span>
                     <span className="text-gray-600"> — download the source code<br></br> from our
-                        feature demos, that usually never see the light <br></br> of the day, to learn exactly how we prototype ideas <br></br> with Tailwind</span>
+                        feature demos, that usually never see the light <br></br> of the day, to learn exactly how we prototype ideas <br></br> with Tailwind.</span>
                 </div>
             </div>
 
@@ -102,7 +103,7 @@ export function MainSponsor() {
                         <span className="font-medium">Your logo in front of milions </span>
                         <span className="text-gray-600"> — the Tailwind CSS website gets<br></br>
                             over 10millions visitors per mount, and your brand will be feature<br></br>
-                            on the homepage as partner
+                            on the homepage as partner.
                         </span>
                     </div>
                 </div>
@@ -124,9 +125,9 @@ export function MainSponsor() {
                 <div className="pl-10 ">
                     <span className="font-medium">Expedited bug fixes and issue resolution</span>
                     <span className="text-gray-600"> — we’ll work to address<br></br>
-                     issues you run into on an expedited schedule, even if normally<br></br>
-                      they would be lower priority due to their limited impact on the<br>
-                     </br> user base.</span>
+                        issues you run into on an expedited schedule, even if normally<br></br>
+                        they would be lower priority due to their limited impact on the<br>
+                        </br> user base.</span>
                 </div>
                 <div className="pl-12">
                     <span className="font-medium">Web site in the showcase </span>
@@ -137,66 +138,74 @@ export function MainSponsor() {
                 <div className="pl-8">
                     <span className="font-medium">Support Tailwind CSS</span>
                     <span className="text-gray-600"> — you'll be helping contribute<br></br> to the
-                    sustainability of the framework giving you <br></br> peace of mind </span>
-               
+                        sustainability of the framework giving you <br></br> peace of mind. </span>
+
                 </div>
             </div>
         </div>
-     <div className="pl-10 pt-18 border-t border-gray-200">
-                <span className="text-fuchsia-600  tracking-wider text-[13px]">FREQUENTLY ASKED QUESTIONS</span>
-    </div>
-    <div className="pl-10 border-b border-gray-200">
-        <span className="text-[40px] tracking-tighter font-medium">Everything you need to know.</span>
-    </div>
-    <div className="pl-10 pt-8">
-        <span className="text-[13px] tracking-wider">GENERAL</span>
-    </div>
-    <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">Who can i contact about a sponsorship?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">Can any company sponsor?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">How are the sponsor perks delivered?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">How are the sponsor perks delivered?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-8 border-t border-gray-200">
-        <span className="text-[13px] tracking-wider">SUPPORT</span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">Do you offer technical support for sponsor perks?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">How do i cancel my sponsorship?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">What happends if i stop sponsoring?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-     <div className="pl-10 pt-3 border-t border-gray-200">
-        <span className="font-medium">What is your refund policy?
-            <span className="ri-add-line pl-4"></span>
-        </span>
-    </div>
-
-
-
+        <div className="pl-10 pt-18 border-t border-gray-200">
+            <span className="text-fuchsia-600  tracking-wider text-[13px]">FREQUENTLY ASKED QUESTIONS</span>
+        </div>
+        <div className="pl-10 border-b border-gray-200">
+            <span className="text-[40px] tracking-tighter font-medium">Everything you need to know.</span>
+        </div>
+        <div className="pl-10 pt-8">
+            <span className="text-[13px] tracking-wider">GENERAL</span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">Who can i contact about a sponsorship?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">Can any company sponsor?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">How are the sponsor perks delivered?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">How are the sponsor perks licensed?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-8 border-t border-gray-200">
+            <span className="text-[13px] tracking-wider">SUPPORT</span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">Do you offer technical support for sponsor perks?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">How do i cancel my sponsorship?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">What happends if i stop sponsoring?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+        <div className="pl-10 pt-3 border-t border-gray-200">
+            <span className="font-medium">What is your refund policy?
+                <span className="ri-add-line pl-4"></span>
+            </span>
+        </div>
+     
+            <div className="pl-10 pt-18 border-t border-gray-200">
+            <span className="text-pink-500  tracking-wider text-[13px]">SPONSORS</span>
+        </div>
+          <div className="pl-10 border-b border-gray-200">
+            <span className="text-[40px] tracking-tighter font-medium">Thank you to our Sponsors.</span>
+        </div>
+            <div className="pl-10 border-b border-gray-200 pt-4">
+                <span className="text-gray-600">We are super grateful to all the following sponsors for supporting the ongoing<br></br>
+                development and maintenance of Tailwind CSS.</span>
+            </div>
 
 
 

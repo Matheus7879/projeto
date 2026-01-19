@@ -134,18 +134,58 @@ export function BlogPage() {
         </>
         }
         SubText={
-        <>There's nothing like building <span className="border-b border-sky-400 font-medium">A major new project</span>
+        <>There's nothing like building <span className="border-b border-sky-400 font-medium">A major new project </span>
         for finding all the new features you wish you had in<br></br>
-        your own tools, so we capitalize on some of that inspiration and turned it into this — Tsilwind Css<br></br>v3.4.
+        your own tools, so we capitalize on some of that inspiration and turned it into this — Tailwind CSS v3.4.
         </>
         }/> 
         <SectionItemsBlog
         Date="Dec 18, 2023"
         SubTitle="HeroIcons Micro: What are these, icons for ants?"
         SubText={
-        <>We just released  HeroIcons v2.1 which includes a brand
+        <>We just released  HeroIcons v2.1 which includes a brand new micro style  — <br></br>
+        a full set of almost three hundred 16x16 icons designed for tighter, higher <br></br>
+        density UIs 
         </>
         }/>
+        <SectionItemsBlog 
+        Date="Aug 7, 2023"
+        SubTitle="Meet Studio: Our Beautiful new agency site template"
+        SubText={
+            <>We just released <span className="border-b border-sky-400 font-medium">Studio</span>
+             — a beautiful new agency website template we've been working on for the<br></br>
+             last couple of months for Tailwind UI.</>
+        }/>
+        <SectionItemsBlog
+        Date="Jul 19, 2023"
+        SubTitle="Tailwind Connect 2023:Recap of our first in-person event"
+        SubText={
+            <>Last month, over 200 people got together in my hometown of Cambridge, Ontario to hang out, talk<br></br>
+            shop, and get a peek behind the curtain at some of the new stuff we've been working on.
+            </>
+        }/>\
+        <SectionItemsBlog
+        Date="Apr 24, 2023"
+        SubTitle="New changeLog template + the biggest Tailwind UI update ever "
+        SubText={
+        <>Over the last four months we've probably done more work on Tailwind UI than we ever had, and<br></br>
+        having finally wrapped up What we set to achieve i'm excited to lay it all out for you
+        </>
+        }/>
+        <SectionItemsBlog
+        Date ="Mar 28, 2023"
+        SubTitle={
+            <>Tailwind CSS v3.3: Extended color palette, ESM/TS support, logical properties, and <br></br> more
+            </>}
+        SubText={
+            <> Tailwind CSS v3.3 is here — bringing a bunch of new features people been asking for forever, <br></br>
+            and a bunch of stuff you didnt even know you wanted
+            </>
+        }/>
+        
+
+
+
 
 <Footer />
     </div>
