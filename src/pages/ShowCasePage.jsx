@@ -1,9 +1,9 @@
 import { MainCase } from "../components/MainCase"
 
 export function ShowCasePage(){
-    return <div>
+    return <main>
         <MainCase />
 
 
-    </div>
+    </main>
 }

@@ -1,5 +1,5 @@
 export function BlogTitle(props){
-    return <div className="">
+    return <main>
     <div className="pt-38">
        <div className="border-t text-8xl font-base tracking-tight pl-12 border-gray-200">{props.Title}</div>
 </div>
@@ -19,7 +19,7 @@ export function BlogTitle(props){
     </div>  
     </div>  
 
-</div>
+</main>
 
 
 }

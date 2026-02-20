@@ -2,9 +2,10 @@ import { MainSponsor } from "../components/MainSponsor"
 import { Footer } from "../components/Footer"
 
 export function SponsorPage(){
-    return <div>
-    <MainSponsor />
+    return <main>
+    <MainSponsor 
+    />
     <Footer />  
 
-    </div>
+    </main>
 }

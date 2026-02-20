@@ -1,41 +1,41 @@
+
+
 export function MainSponsor() {
     return <div>
         <div className="pt-27 border-t" >
-            <span className="mt-27 pl-11 ">
+            <span className="mt-27 pl-11">
                 <span className="text-[13px] tracking-wider text-gray-800">SPONSOR</span>
             </span>
             <div className="flex">
                 <div className="pl-11 pt-2">
-                    <span className="text-8xl tracking-tighter">Support the future of<br></br>Tailwind CSS</span>
+                    <span className="text-8xl tracking-tighter">Support the future of<br></br> Tailwind CSS</span>
                 </div>
-                <div className="pl-22 pt-10 ">
+                <div className="pl-22 pt-10">
                     <div className="pl-4">
                         <span className="text-[19px] text-gray-800">Help keep Tailwind CSS sustainable long term by supporting the<br></br>
                             project individually or as a company.</span>
-                        <div class="flex pt-18">
-                            <button class="border bg-black text-white rounded-l-full border-r-0 p-2 cursor-pointer">Support as an individual</button>
+                        <div className="flex pt-16">
+                            <button className="border bg-black text-white rounded-l-full border-r-0 p-2 cursor-pointer">Support as an individual</button>
                             <span
-                                class="cursor-pointer ri-arrow-right-line border-l-0 text-white border rounded-r-full bg-black pt-2 text-[18px] pr-2"></span>
-                            <button class="border font-medium bg-white border-gray-200 text-black rounded-l-full border-r-0 p-2 cursor-pointer">Support as a company</button>
+                                className="cursor-pointer ri-arrow-right-line border-l-0 text-white border rounded-r-full bg-black pt-2 text-[18px] pr-2"></span>
+                            <button className="border font-medium bg-white border-gray-200 text-black rounded-l-full border-r-0 p-2 cursor-pointer">Support as a company</button>
                             <span
-                                class="cursor-pointer w-7 pt-2 ri-arrow-right-line border border-l-0 rounded-r-full bg-white text-black border-gray-200"></span>
-                        </div>
+                                className="cursor-pointer w-7 pt-2 ri-arrow-right-line border border-l-0 rounded-r-full bg-white text-black border-gray-200"></span></div>
                     </div>
                 </div>
             </div>
-
             <div>
-            <div className="pt-18 pl-10">
-                <span className="text-sky-400 text-sm tracking-wider">INSIDERS</span>
-            </div>
-            <div className=" pl-10">
-                <span className="text-[40px] font-medium tracking-tighter">Support as an individual</span>
-            </div>
-            <div className="pl-10 pt-4 border-b border-gray-200">
-                <span className="text-gray-600">Join a community of amazing developers who get early acess to new features, internal tooling<br></br>
-                    we've built for Tailwind, and direct connection with the team — all while supporting the <br></br>
-                    project you love.</span>
-            </div></div>
+                <div className="pt-18 pl-10">
+                    <span className="text-sky-400 text-sm tracking-wider">INSIDERS</span>
+                </div>
+                <div className=" pl-10">
+                    <span className="text-[40px] font-medium tracking-tighter">Support as an individual</span>
+                </div>
+                <div className="pl-10 pt-4 border-b border-gray-200">
+                    <span className="text-gray-600">Join a community of amazing developers who get early acess to new features, internal tooling<br></br>
+                        we've built for Tailwind, and direct connection with the team — all while supporting the <br></br>
+                        project you love.</span>
+                </div></div>
             <div className="pl-10 pt-12">
                 <span className="text-2xl font-medium">Insider Perks</span>
             </div>
@@ -82,7 +82,7 @@ export function MainSponsor() {
                 </div>
             </div>
 
-            <div className="pl-10 pt-18">
+            <div className="pl-10 pt-18 border-t border-gray-200">
                 <span className="text-pink-500 text-sm tracking-wider">PARTNERS</span>
             </div>
             <div className="pl-10">
@@ -124,10 +124,10 @@ export function MainSponsor() {
                 <div className="border-b border-gray-200"></div>
                 <div className="pl-10 ">
                     <span className="font-medium">Expedited bug fixes and issue resolution</span>
-                    <span className="text-gray-600"> — we’ll work to address<br></br>
+                    <span className="text-gray-600"> — we'll work to address<br></br>
                         issues you run into on an expedited schedule, even if normally<br></br>
                         they would be lower priority due to their limited impact on the<br>
-                        </br> user base.</span>
+                        </br>user base.</span>
                 </div>
                 <div className="pl-12">
                     <span className="font-medium">Web site in the showcase </span>
@@ -153,60 +153,68 @@ export function MainSponsor() {
             <span className="text-[13px] tracking-wider">GENERAL</span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">Who can i contact about a sponsorship?
+            <span className="font-medium cursor-pointer">Who can i contact about a sponsorship?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">Can any company sponsor?
+            <span className="font-medium cursor-pointer">Can any company sponsor?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">How are the sponsor perks delivered?
+            <span className="font-medium cursor-pointer">How are the sponsor perks delivered?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">How are the sponsor perks licensed?
+            <span className="font-medium cursor-pointer">How are the sponsor perks licensed?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-8 border-t border-gray-200">
-            <span className="text-[13px] tracking-wider">SUPPORT</span>
+            <span className="text-[13px] tracking-wider cursor-pointer">SUPPORT</span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">Do you offer technical support for sponsor perks?
+            <span className="font-medium cursor-pointer">Do you offer technical support for sponsor perks?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">How do i cancel my sponsorship?
+            <span className="font-medium cursor-pointer">How do i cancel my sponsorship?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">What happends if i stop sponsoring?
+            <span className="font-medium cursor-pointer  ">What happends if i stop sponsoring?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
         <div className="pl-10 pt-3 border-t border-gray-200">
-            <span className="font-medium">What is your refund policy?
+            <span className="font-medium cursor-pointer">What is your refund policy?
                 <span className="ri-add-line pl-4"></span>
             </span>
         </div>
-     
-            <div className="pl-10 pt-18 border-t border-gray-200">
+
+        <div className="pl-10 pt-18 border-t border-gray-200">
             <span className="text-pink-500  tracking-wider text-[13px]">SPONSORS</span>
         </div>
-          <div className="pl-10 border-b border-gray-200">
+        <div className="pl-10 border-b border-gray-200">
             <span className="text-[40px] tracking-tighter font-medium">Thank you to our Sponsors.</span>
         </div>
-            <div className="pl-10 border-b border-gray-200 pt-4">
-                <span className="text-gray-600">We are super grateful to all the following sponsors for supporting the ongoing<br></br>
+        <div className="pl-10 border-b border-gray-200 pt-4">
+            <span className="text-gray-600">We are super grateful to all the following sponsors for supporting the ongoing<br></br>
                 development and maintenance of Tailwind CSS.</span>
+        </div>
+        <div className="flex pl-10 pt-32">
+            <span className="text-3xl ri-tailwind-css-fill text-sky-400"></span>
+            <div>
+                <span className="text-2xl font-semibold tracking-tighter pl-2">tailwind</span>
             </div>
-
+            <div>
+                <span className="text-2xl text-sky-400 font-semibold tracking-tighter">plus</span>
+            </div>
+        </div>
 
 
     </div>

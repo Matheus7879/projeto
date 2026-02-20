@@ -6,8 +6,9 @@ import { ButtonArrow } from "../components/ButtonArrow";
 import { Button } from "../components/Button";
 import { Footer } from "../components/Footer";
 
+
 export function HomePage() {
-    return <div>
+    return <main>
         <MainTitle />
         <SearchBarButton />
         <BigText />
@@ -18,7 +19,7 @@ export function HomePage() {
        SubText={
             <>
           Tailwind is supported by incredible partners and sponsors who make it possible <br></br>
-          for a team of talented designers and engineers to maintain the frameworkfull-time</>} />
+          for a team of talented designers and engineers to maintain the frameworkfull-time</>}/>
         <ButtonArrow />
         <SectionItem
          TopStyle="text-4xl text-gray-950 tracking-tighter text-balance"
@@ -27,7 +28,8 @@ export function HomePage() {
            SubText={
            <>
           Tailwind is unapologetically modern, and takes advantage of all the latest and greatest CSS<br></br>
-          features to make the developer experience as enjoyable as possible.</>} />
+          features to make the developer experience as enjoyable as possible.</>} 
+          SubTitle="Responsive Design"/>
         <SectionItem
         TopStyle="text-4xl text-gray-950 tracking=tighter text-balance"
         Title="Ship faster and smaller."    
@@ -73,5 +75,5 @@ export function HomePage() {
 
 
 
-    </div>
+    </main>
 }

@@ -1,5 +1,5 @@
 export function SectionItemsBlog(props) {
-    return <>
+    return <main>
         <div className="pt-12">
             <div className="flex border-t border-gray-200">
             </div>
@@ -25,5 +25,5 @@ export function SectionItemsBlog(props) {
    
    
    
-    </>
+    </main>
 }
