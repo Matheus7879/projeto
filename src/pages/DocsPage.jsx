@@ -47,7 +47,7 @@ export function DocsPage(props) {
                         <span className="ri-graduation-cap-line"></span>
                     </div>
                     <div className="pt-3 pl-2">
-                        <span className="">Courses</span>
+                        <button onClick={() => props.onChange('curso')} className={`cursor-pointer ${props.page === 'curso' ? 'text-blue-600' : 'text-base'}`}>Courses</button>
                     </div>
                 </div>
                 <div className="flex cursor-pointer hover:font-medium" >
@@ -55,7 +55,7 @@ export function DocsPage(props) {
                         <span className="ri-discuss-line"></span>
                     </div>
                     <div className="pt-3 pl-2">
-                        <span className="">Community</span>
+                        <button onClick={() => props.onChange('comu')} className={`cursor-pointer ${props.page === 'comu' ? 'text-blue-600' : 'text-base'}`}>Community</button>
                     </div>
                 </div>
             </aside>

@@ -10,7 +10,9 @@ import { GitPage } from "./pages/GitPage";
 import { ComponentsPage } from "./pages/ComponentsPage";
 import { TemplatePage } from "./pages/TemplatePage"
 import { UIkitPage } from "./pages/UIkitPage"
-import { Modal } from "./pages/Modal";
+import { PlayPage } from "./pages/PlayPlage";
+import { CoursePage } from "./pages/CoursePage"
+import { CommunityPage } from "./pages/CommunityPage"
 
 function App() {
 
@@ -40,7 +42,11 @@ function App() {
       case 'ui':
         return <UIkitPage />
       case 'play':
-        return <Modal />
+        return <PlayPage />
+      case 'curso':
+        return <CoursePage />
+      case 'comu':
+        return <CommunityPage />
       default:
         return <HomePage />
     }
